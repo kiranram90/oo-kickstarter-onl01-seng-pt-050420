@@ -8,7 +8,7 @@ class Project
   end
   
   def add_backer(backer)
-    @ << backer
+    @backed_attribute << backer
   end
   
 end
