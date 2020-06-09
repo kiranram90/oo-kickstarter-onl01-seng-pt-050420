@@ -2,7 +2,7 @@ class Project
   
   attr_reader :title
   
-  def initalize(title)
+  def initialize(title)
     @name = name 
     @backed_attribute = []
   end
